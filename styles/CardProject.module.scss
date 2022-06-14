@@ -1,9 +1,47 @@
-.CardProject{
-    background: rgba(0,0,0,0.2);;
-    border: 1px solid hsla(0,0%,100%,0.1);
-    border-radius: 8px;
-    color: rgba(235,240,255,0.5);
-    display: flex;
-    flex-direction: column;
-    padding: 1.5rem;
+.CardProject {
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid hsla(0, 0%, 100%, 0.1);
+  border-radius: 8px;
+  color: rgba(235, 240, 255, 0.5);
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  &__tags {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+    a {
+        background-color: #282c34;;
+      border: 1px solid hsla(0, 0%, 100%, 0.1);
+      border-radius: 8px;
+      color: #eee;
+      display: inline-block;
+      font-size: 0.9rem;
+      font-weight: 600;
+      line-height: normal;
+      padding: 0.4rem 0.6rem;
+      vertical-align: middle;
+      &:hover{
+        border: 1px solid rgb(224, 195, 34);
+        color: rgb(224, 195, 34);
+    }
+    }
+  }
+  h1 {
+    border-bottom: none;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    text-align: center;
+    color: rgb(224, 195, 34);
+  }
+  p {
+    color: #d0d5df;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Roboto",
+      Roboto, Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI",
+      "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1.2rem;
+    line-height: 1.3;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
 }

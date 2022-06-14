@@ -18,9 +18,9 @@
         border-top: 2px solid transparent;
         color: #ffffff;
         font-weight: 600;
-        border-bottom: 2px solid rgb(224, 195, 34);;
+        border-bottom: 2px solid rgb(224, 195, 34);
         &:hover{
-            background-color: rgb(224, 195, 34);;
+            background-color: rgb(224, 195, 34);
         }
       }
     }
@@ -34,5 +34,6 @@
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-gap: 20px;
     align-items: stretch;
+    padding: 1rem;
   }
 }
