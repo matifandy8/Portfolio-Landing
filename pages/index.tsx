@@ -1,10 +1,11 @@
-import type { NextPage } from 'next'
+import type { NextPage, GetServerSideProps } from 'next'
+
 import Head from 'next/head'
 import Presentation from '../components/home/presentation'
 import Projects from '../components/home/projects'
 import styles from '../styles/Home.module.scss'
 
-const Home: NextPage = () => {
+const Home: NextPage = ({projects}) => {
   return (
     <div className={styles.container}>
       <Head>
@@ -14,10 +15,22 @@ const Home: NextPage = () => {
       </Head>
       <main className={styles.main}>
        <Presentation/>
-       <Projects/>
+       <Projects projects={projects}/>
       </main>
     </div>
   )
 }
 
 export default Home
+
+
+export const getServerSideProps: GetServerSideProps = async () => {
+  const res = await fetch('https://my-json-server.typicode.com/matifandy8/nextjs-portfolio/projects');
+  const data = await res.json();
+  console.log(data)
+
+
+  return {
+    props: { projects: data },
+  };
+};

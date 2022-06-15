@@ -5,21 +5,22 @@ import styles from "../../../styles/CardProject.module.scss";
 
 
 
-const CardProject = () => {
+const CardProject = ({ name, image, github, demo, technologies}) => {
   return (
     <div className={styles.CardProject}>
-      <h1>My App</h1>
+      <h1>{name}</h1>
       <Image
         alt="alt"
-        src={pic}
-        width={100}
-        height={100}
+        src={image}
+        width={200}
+        height={200}
+        objectFit="contain"
       />
       <div className={styles.CardProject__tags}>
-        <a href="">Source</a>
-        <a href="">Demo</a>
+        <a href={github}>Source</a>
+        <a href={demo}>Demo</a>
       </div>
-      <p>Description</p>
+      <p>{technologies}</p>
     </div>
   );
 };

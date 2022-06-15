@@ -3,7 +3,8 @@ import { Project } from "../../../type";
 import styles from "../../../styles/Projects.module.scss";
 import CardProject from "./CardProject";
 
-export default function Projects () {
+
+export default function Projects ({projects}:any) {
   return (
     <article className={styles.Projects}>
       <div className={styles.Projects__title}>
@@ -13,14 +14,12 @@ export default function Projects () {
         </p>
       </div>
       <div className={styles.Projects__cardlist}>
-         <CardProject />
-         <CardProject />
-         <CardProject />
-         <CardProject />
-         <CardProject />
-         <CardProject />
+         {projects?.map((project:Project) => (
+          <CardProject key={project.id} name={project.name} image={project.image} github={project.github} demo={project.demo} technologies={project.technologies}/>
+        ))}
       </div>
     </article>
   );
 };
+
 
