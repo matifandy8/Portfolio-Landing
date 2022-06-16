@@ -1,11 +1,10 @@
 import Image from "next/image";
 import { Project } from "../../../type";
-import pic from "../../../public/vercel.svg";
 import styles from "../../../styles/CardProject.module.scss";
 
 
 
-const CardProject = ({ name, image, github, demo, technologies}) => {
+const CardProject = ({ name, image, github, demo, technologies}:Project) => {
   return (
     <div className={styles.CardProject}>
       <h1>{name}</h1>

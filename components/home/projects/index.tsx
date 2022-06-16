@@ -1,4 +1,3 @@
-import React from "react";
 import { Project } from "../../../type";
 import styles from "../../../styles/Projects.module.scss";
 import CardProject from "./CardProject";
