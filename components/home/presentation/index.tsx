@@ -15,9 +15,9 @@ const Presentation: React.FC = () => {
         height={200}
       />
       <div className={styles.Presentation__title}>
-        <h1>Hey, I'm Matias Fandiño.</h1>
+        <h1>Hey, I&apos;m Matias Fandiño.</h1>
         <p>
-          I'm a Frontend developer in Uruguay. I love building projects and I am
+          I&apos;m a Frontend developer in Uruguay. I love building projects and I am
           a Self-Taught i have experience developing web applications using
           React, Redux, Javascript, MongoDB and Nodejs.
         </p>

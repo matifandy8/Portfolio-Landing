@@ -12,7 +12,7 @@ const Contact: React.FC = () => {
         <h3>
           I am always waiting for a message from you. I would be happy to hear
           from you for an interview and a possible job offer. Or you can just
-          talk to me. Don't hesitate to contact me.😎
+          talk to me. Don&apos;t hesitate to contact me.😎
         </h3>
         <h3>matifandy@gmail.com</h3>
       </div>
