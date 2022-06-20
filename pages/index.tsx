@@ -5,12 +5,10 @@ import Contact from "../components/home/contact";
 import Presentation from "../components/home/presentation";
 import Projects from "../components/home/projects";
 import styles from "../styles/Home.module.scss";
-import { Project } from "../type";
+import { Project, Props } from "../type";
 import { motion } from "framer-motion";
 
-interface Props {
-  Project: Project[];
-}
+
 
 const Home: React.FC<Props> = ({ projects }) => {
   const variants = {

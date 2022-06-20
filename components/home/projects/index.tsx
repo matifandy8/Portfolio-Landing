@@ -1,9 +1,9 @@
-import { Project } from "../../../type";
+import { Project, Props } from "../../../type";
 import styles from "../../../styles/Projects.module.scss";
 import CardProject from "./CardProject";
 
 
-export default function Projects ({projects}:any) {
+export default function Projects ({projects}:Props) {
   return (
     <article className={styles.Projects}>
       <div className={styles.Projects__title}>

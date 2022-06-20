@@ -1,5 +1,5 @@
 export interface Project {
-    id: number,
+    id?: number,
     name: string,
     technologies?: string,
     subtitle?: string,
@@ -8,3 +8,9 @@ export interface Project {
     github: string,
     demo: string,
 }
+
+
+export interface Props {
+    projects: Project[];
+  }
+  
