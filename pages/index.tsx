@@ -42,7 +42,7 @@ export default Home;
 
 export const getServerSideProps: GetServerSideProps = async () => {
   const res = await fetch(
-    "https://my-json-server.typicode.com/matifandy8/nextjs-portfolio/projects"
+    "https://my-json-server.typicode.com/matifandy8/Portfolio-Landing/projects"
   );
   const data = await res.json();
   console.log(data);
