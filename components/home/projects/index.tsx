@@ -5,7 +5,7 @@ import CardProject from "./CardProject";
 
 export default function Projects ({projects}:Props) {
   return (
-    <article className={styles.Projects}>
+    <article id="project" className={styles.Projects}>
       <div className={styles.Projects__title}>
         <h1>Projects</h1>
         <p>

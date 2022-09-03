@@ -9,14 +9,14 @@ const Header: React.FC = () => {
         </h1>
         <ul className={styles.Navigation__list}>
           <li className={styles.Navigation__list__item}>
-            <Link href="/"> About </Link>
+            <Link href="#about"> About </Link>
           </li>
           <li className={styles.Navigation__list__item}>
-            <Link href="/"> Projects </Link>
+            <Link href="#project"> Projects </Link>
           </li>
 
           <li className={styles.Navigation__list__item}>
-            <Link href="/contact"> Contact </Link>
+            <Link href="#experience"> Experience </Link>
           </li>
         </ul>
       </div>

@@ -1,20 +1,25 @@
-.Presentation{
+.Presentation {
     height: auto;
     margin: auto;
-    padding: 2rem;
-    &__img{
-        border: 1px solid hsla(0,0%,100%,0.1);;
+    padding: 6rem 2rem;
+
+    &__img {
+        border: 1px solid hsla(0, 0%, 100%, 0.1);
+        ;
         border-radius: 8px;
         height: auto;
     }
-    &__title{
+
+    &__title {
         text-align: left;
         max-width: 550px;
-        h1{
+
+        h1 {
             color: #eee;
             font-size: 2.25rem;
         }
-        p{
+
+        p {
             font-size: 1.2rem;
             color: #d0d5df;
         }
@@ -24,8 +29,8 @@
 @media only screen and (min-width: 850px) {
     .Presentation {
         display: flex;
-    justify-content: space-between;
-         &__img{
-         }
+        justify-content: center;
+
+        &__img {}
     }
-  }
+}

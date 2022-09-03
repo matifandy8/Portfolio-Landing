@@ -5,15 +5,7 @@ import mypic from "../../../public/me.jpg";
 
 const Presentation: React.FC = () => {
   return (
-    <article className={styles.Presentation}>
-      {" "}
-      <Image
-        className={styles.Presentation__img}
-        src={mypic}
-        alt="Picture of the author"
-        width={200}
-        height={200}
-      />
+    <article id="about" className={styles.Presentation}>
       <div className={styles.Presentation__title}>
         <h1>Hey, I&apos;m Matias Fandiño.</h1>
         <p>

@@ -1,7 +1,10 @@
 .Projects {
+  margin: 80px;
+
   &__title {
     text-align: center;
     margin-bottom: 20px;
+
     h1 {
       font-size: 2.3rem;
       line-height: 1.2;
@@ -9,29 +12,29 @@
       font-weight: 600;
       margin-bottom: 0.75rem;
     }
+
     p {
       font-size: 1.25rem;
       color: rgba(235, 240, 255, 0.5);
       line-height: 1.4;
       margin-bottom: 0;
+
       a {
         border-top: 2px solid transparent;
         color: #ffffff;
         font-weight: 600;
         border-bottom: 2px solid rgb(224, 195, 34);
-        &:hover{
-            background-color: rgb(224, 195, 34);
+
+        &:hover {
+          background-color: rgb(224, 195, 34);
         }
       }
     }
   }
+
   &__cardlist {
-    // display: grid;
-    // gap: 1rem;
-    // grid-auto-rows: 22rem;
-    // grid-template-columns: repeat(autofill, minmax(15rem, 1fr));
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 20px;
     align-items: stretch;
     padding: 1rem;

@@ -15,11 +15,12 @@ const CardProject = ({ name, image, github, demo, technologies}:Project) => {
         height={200}
         objectFit="contain"
       />
+      <p>{technologies}</p>
       <div className={styles.CardProject__tags}>
         <a href={github}>Source</a>
         <a href={demo}>Demo</a>
       </div>
-      <p>{technologies}</p>
+      
     </div>
   );
 };

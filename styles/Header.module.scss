@@ -1,4 +1,7 @@
 .Header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
   background: #1c1e24;
   border-bottom: 1px solid hsla(0, 0%, 100%, 0.1);
   .Navigation {
