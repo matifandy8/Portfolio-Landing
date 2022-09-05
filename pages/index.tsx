@@ -1,12 +1,12 @@
 import type {  GetServerSideProps } from "next";
 
 import Head from "next/head";
-import Contact from "../components/home/contact";
 import Presentation from "../components/home/presentation";
 import Projects from "../components/home/projects";
 import styles from "../styles/Home.module.scss";
 import { Project, Props } from "../type";
 import { motion } from "framer-motion";
+import Experience from "../components/home/experience";
 
 
 
@@ -32,6 +32,7 @@ const Home: React.FC<Props> = ({ projects }) => {
       >
         <Presentation />
         <Projects projects={projects} />
+        <Experience/>
       </motion.main>
     </div>
   );
