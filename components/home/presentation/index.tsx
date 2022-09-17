@@ -1,7 +1,4 @@
-import Image from "next/image";
-
 import styles from "../../../styles/Presentation.module.scss";
-import mypic from "../../../public/me.jpg";
 
 const Presentation: React.FC = () => {
   return (

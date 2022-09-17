@@ -5,7 +5,7 @@ const Header: React.FC = () => {
     <header className={styles.Header} >
       <div className={styles.Navigation}>
         <h1 className={styles.Navigation__title}>
-          <Link href="/">Matias Fandiño</Link>
+          <Link href="/">MF</Link>
         </h1>
         <ul className={styles.Navigation__list}>
           <li className={styles.Navigation__list__item}>
