@@ -15,14 +15,14 @@
 }
 .card {
 	position: relative;
-	max-width: 600px;
+	max-width: 500px;
 	&:nth-child(odd) {
 		padding: 30px 0 30px 30px;
 		&::before {
 			left: 0px;
 			top: -4.5px;
 			bottom: -4.5px;
-			border-width: 5px 0 5px 5px;
+			border-width: 0px 0 0px 5px;
 			border-radius: 50px 0 0 50px;
 		}
 		>.info {
@@ -39,7 +39,7 @@
 			right: 0;
 			top: 0;
 			bottom: 0;
-			border-width: 5px 5px 5px 0;
+			border-width: 0px 5px 0px 0;
 			border-radius: 0 50px 50px 0;
 		}
 		>.info {
