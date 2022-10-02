@@ -2,7 +2,7 @@
   position: fixed;
   width: 100%;
   z-index: 1;
-  background: #1c1e24;
+  background: #000000;
   border-bottom: 1px solid hsla(0, 0%, 100%, 0.1);
   .Navigation {
     display: flex;
@@ -12,13 +12,13 @@
     margin: 0 auto;
     padding: 10px 0px;
     &__title {
-      color: #d0d5df;
+      color: #fff;
       font-size: 1.2rem;
       margin: 0px 10px;
     }
 
     &__list {
-      color: #d0d5df;
+      color: #fff;
       display: flex;
       justify-content: center;
       align-items: center;
