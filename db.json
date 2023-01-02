@@ -1,18 +1,17 @@
-
 {
-    "projects": [
-      {
-         "id": 1,
-        "name": "Windows-Xp",
-        "technologies": "ReactJs, Typescript",
-        "subtitle": "This is a Copy of one of the most famous desktops of Windows.",
-        "used": "I used ReactJs with Typescript",
-        "image": "https://i.ibb.co/pRZ4sqM/windowsxp.png",
-        "github": "https://github.com/matifandy8/Windows-XP",
-       "demo": "https://windows-xp-psi.vercel.app/"
-      },
+  "projects": [
     {
-    "id": 2,
+      "id": 1,
+      "name": "Windows-Xp",
+      "technologies": "ReactJs, Typescript",
+      "subtitle": "This is a Copy of one of the most famous desktops of Windows.",
+      "used": "I used ReactJs with Typescript",
+      "image": "https://i.ibb.co/pRZ4sqM/windowsxp.png",
+      "github": "https://github.com/matifandy8/Windows-XP",
+      "demo": "https://windows-xp-psi.vercel.app/"
+    },
+    {
+      "id": 2,
       "name": "Mat-url",
       "technologies": "NextJs, Redux, FaunaDB",
       "subtitle": "Is a url shortener to reduce a long link. Use our tool to shorten links and then share them.",
@@ -20,25 +19,33 @@
       "github": "https://github.com/matifandy8/MatUrl",
       "demo": "https://mat-url.vercel.app/"
     },
-   {
-        "id": 3,
-        "name": "Eco-Coffe",
-        "technologies": "Typescript, React, Nextjs",
-        "subtitle": "This is a Ecommerse to buy coffe",
-        "image": "https://images2.imgbox.com/85/3d/UcI3gEyK_o.png",
-        "github": "https://github.com/matifandy8/Ecommerse-Nextjs",
-        "demo": "#"
-      },
-
-          {
-            "id": 4,
-              "name": "Terminal-Portfolio",
-              "subtitle": "Terminal you can use to see my information.",
-              "used": " I used Reactjs with Typescript, Sass",
-              "technologies": "Typescript, ReactJs, Nextjs, Sass",
-              "image": "https://i.ibb.co/CwBCP4K/terminal.png",
-              "github": "https://github.com/matifandy8/Terminal",
-              "demo": "https://portfolio-terminal.vercel.app/"
-          }
+    {
+      "id": 3,
+      "name": "Eco-Coffe",
+      "technologies": "Typescript, React, Nextjs",
+      "subtitle": "This is a Ecommerse to buy coffe",
+      "image": "https://images2.imgbox.com/85/3d/UcI3gEyK_o.png",
+      "github": "https://github.com/matifandy8/Ecommerse-Nextjs",
+      "demo": "#"
+    },
+    {
+      "id": 4,
+      "name": "Terminal-Portfolio",
+      "subtitle": "Terminal you can use to see my information.",
+      "used": " I used Reactjs with Typescript, Sass",
+      "technologies": "Typescript, ReactJs, Nextjs, Sass",
+      "image": "https://i.ibb.co/CwBCP4K/terminal.png",
+      "github": "https://github.com/matifandy8/Terminal",
+      "demo": "https://portfolio-terminal.vercel.app/"
+    },
+    {
+      "id": 5,
+      "name": "The Simpsons",
+      "technologies": "Typescript, React, Nextjs",
+      "subtitle": "This is a page with information about The simpsons Serie",
+      "image": "https://i.ibb.co/jzb326H/thesimpsons-gdvxar.png",
+      "github": "https://github.com/matifandy8/simpsons-page",
+      "demo": "https://simpsons-page.vercel.app/"
+    }
   ]
-  }
+}
