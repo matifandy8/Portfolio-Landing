@@ -1,4 +1,4 @@
-import type {  GetServerSideProps } from "next";
+import type { GetServerSideProps } from "next";
 
 import Head from "next/head";
 import Presentation from "../components/home/presentation";
@@ -8,15 +8,12 @@ import { Project, Props } from "../type";
 import { motion } from "framer-motion";
 import Experience from "../components/home/experience";
 
-
-
 const Home: React.FC<Props> = ({ projects }) => {
   const variants = {
     hidden: { opacity: 0 },
     visible: { opacity: 1 },
   };
 
-  
   return (
     <div className={styles.container}>
       <Head>
@@ -32,7 +29,7 @@ const Home: React.FC<Props> = ({ projects }) => {
       >
         <Presentation />
         <Projects projects={projects} />
-        <Experience/>
+        <Experience />
       </motion.main>
     </div>
   );
@@ -42,7 +39,7 @@ export default Home;
 
 export const getServerSideProps: GetServerSideProps = async () => {
   const res = await fetch(
-    "https://my-json-server.typicode.com/matifandy8/Portfolio-Landing/projects"
+    "https://my-json-server.typicode.com/matifandy8/api/projects"
   );
   const data = await res.json();
   console.log(data);
