@@ -41,11 +41,20 @@
     {
       "id": 5,
       "name": "The Simpsons",
-      "technologies": "Typescript, React, Nextjs",
+      "technologies": "Typescript, React, Nextjs, sass",
       "subtitle": "This is a page with information about The simpsons Serie",
       "image": "https://i.ibb.co/jzb326H/thesimpsons-gdvxar.png",
       "github": "https://github.com/matifandy8/simpsons-page",
       "demo": "https://simpsons-page.vercel.app/"
+    },
+    {
+      "id": 6,
+      "name": "DevChoachAi",
+      "technologies": "Typescript, React, Nextjs, sass, Writesonic API",
+      "subtitle": "DevCoachAI Landing Page This is the official landing page for DevCoachAI, an AI-powered platform that provides personalized coaching to developers.",
+      "image": "https://i.ibb.co/C5ZNZXb/devcoachai.png",
+      "github": "https://github.com/matifandy8/ai-app",
+      "demo": "https://devcoachai.vercel.app"
     }
   ]
 }
