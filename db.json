@@ -21,12 +21,12 @@
     },
     {
       "id": 3,
-      "name": "Eco-Coffe",
-      "technologies": "Typescript, React, Nextjs",
-      "subtitle": "This is a Ecommerse to buy coffe",
-      "image": "https://images2.imgbox.com/85/3d/UcI3gEyK_o.png",
-      "github": "https://github.com/matifandy8/Ecommerse-Nextjs",
-      "demo": "#"
+      "name": "MyEventsVault",
+      "technologies": "Typescript, Tailwind, Nextjs, Supabase",
+      "subtitle": "Website to save your favorites Events",
+      "image": "https://i.ibb.co/qRGyLmd/events-web.png",
+      "github": "https://github.com/matifandy8/MyEventVault",
+      "demo": "https://vercel.com/matifandy8/my-event-vault/FEjWgrGS3UfHNqoxbqxtV8uk4nFi"
     },
     {
       "id": 4,
