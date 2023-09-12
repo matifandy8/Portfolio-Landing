@@ -3,17 +3,20 @@
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
-    background: #1c1e24;
-    border-top: 1px solid hsla(0, 0%, 100%, 0.1);
+    background: #000000;
+    border-top: 1px solid #ffffff6b;
     font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Roboto", Roboto, Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     padding: 2.5rem 0rem;
-    color: rgba(235, 240, 255, 0.5);
+    color: #fff;
 
     &__socialmedia {
         display: flex;
         justify-content: space-around;
         align-items: center;
         width: 100px;
+        background-color: white;
+        border-radius: 23px;
+        padding: 5px;
 
         .img {}
     }

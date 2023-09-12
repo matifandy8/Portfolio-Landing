@@ -11,8 +11,8 @@ const CardProject = ({ name, image, github, demo, technologies}:Project) => {
       <Image
         alt="alt"
         src={image}
-        width={200}
-        height={200}
+        width={600}
+        height={350}
         objectFit="contain"
       />
       <p>{technologies}</p>
