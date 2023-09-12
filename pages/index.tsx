@@ -39,7 +39,7 @@ export default Home;
 
 export const getServerSideProps: GetServerSideProps = async () => {
   const res = await fetch(
-    "https://my-json-server.typicode.com/matifandy8/api/projects"
+    "https://mocki.io/v1/c4120eda-80b5-413e-84ce-764befe6363d"
   );
   const data = await res.json();
   console.log(data);
