@@ -42,7 +42,6 @@ export const getServerSideProps: GetServerSideProps = async () => {
     "https://mocki.io/v1/c4120eda-80b5-413e-84ce-764befe6363d"
   );
   const data = await res.json();
-  console.log(data);
 
   return {
     props: { projects: data },
