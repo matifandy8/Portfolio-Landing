@@ -3,7 +3,16 @@
     {
       "id": 1,
       "name": "Windows-Xp",
-      "technologies": "ReactJs, Typescript",
+      "technologies": [
+        {
+          "name": "ReactJs",
+          "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+        },
+        {
+          "name": "Typescript",
+          "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/300px-Typescript_logo_2020.svg.png"
+        }
+      ],
       "subtitle": "This is a Copy of one of the most famous desktops of Windows.",
       "used": "I used ReactJs with Typescript",
       "image": "https://i.ibb.co/pRZ4sqM/windowsxp.png",
@@ -13,8 +22,21 @@
     {
       "id": 2,
       "name": "Mat-url",
-      "technologies": "NextJs, Redux, FaunaDB",
-      "subtitle": "Is a url shortener to reduce a long link. Use our tool to shorten links and then share them.",
+      "technologies": [
+        {
+          "name": "NextJs",
+          "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+        },
+        {
+          "name": "Redux",
+          "iconUrl": "https://i.ibb.co/redux-icon.png"
+        },
+        {
+          "name": "FaunaDB",
+          "iconUrl": "https://i.ibb.co/faunadb-icon.png"
+        }
+      ],
+      "subtitle": "Is a URL shortener to reduce a long link. Use our tool to shorten links and then share them.",
       "image": "https://i.ibb.co/ZKm1pTm/url.png",
       "github": "https://github.com/matifandy8/MatUrl",
       "demo": "https://mat-url.vercel.app/"
@@ -22,8 +44,21 @@
     {
       "id": 3,
       "name": "MyEventsVault",
-      "technologies": "Typescript, Tailwind, Nextjs, Supabase",
-      "subtitle": "Website to save your favorites Events",
+      "technologies": [
+        {
+          "name": "Typescript",
+          "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/300px-Typescript_logo_2020.svg.png"
+        },
+        {
+          "name": "Tailwind",
+          "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg"
+        },
+        {
+          "name": "Nextjs",
+          "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+        }
+      ],
+      "subtitle": "Website to save your favorite events",
       "image": "https://i.ibb.co/qRGyLmd/events-web.png",
       "github": "https://github.com/matifandy8/MyEventVault",
       "demo": "https://my-event-vault.vercel.app/"
@@ -32,8 +67,21 @@
       "id": 4,
       "name": "Terminal-Portfolio",
       "subtitle": "Terminal you can use to see my information.",
-      "used": " I used Reactjs with Typescript, Sass",
-      "technologies": "Typescript, ReactJs, Nextjs, Sass",
+      "used": "I used Reactjs with Typescript, Sass",
+      "technologies": [
+        {
+          "name": "Typescript",
+          "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/300px-Typescript_logo_2020.svg.png"
+        },
+        {
+          "name": "Nextjs",
+          "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+        },
+        {
+          "name": "Sass",
+          "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
+        }
+      ],
       "image": "https://i.ibb.co/CwBCP4K/terminal.png",
       "github": "https://github.com/matifandy8/Terminal",
       "demo": "https://portfolio-terminal.vercel.app/"
@@ -41,8 +89,21 @@
     {
       "id": 5,
       "name": "The Simpsons",
-      "technologies": "Typescript, React, Nextjs, sass",
-      "subtitle": "This is a page with information about The simpsons Serie",
+      "technologies": [
+        {
+          "name": "Typescript",
+          "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/300px-Typescript_logo_2020.svg.png"
+        },
+        {
+          "name": "Nextjs",
+          "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+        },
+        {
+          "name": "Sass",
+          "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
+        }
+      ],
+      "subtitle": "This is a page with information about The Simpsons Series",
       "image": "https://i.ibb.co/jzb326H/thesimpsons-gdvxar.png",
       "github": "https://github.com/matifandy8/simpsons-page",
       "demo": "https://simpsons-page.vercel.app/"
@@ -50,8 +111,21 @@
     {
       "id": 6,
       "name": "DevChoachAi",
-      "technologies": "Typescript, React, Nextjs, sass, Writesonic API",
-      "subtitle": "DevCoachAI Landing Page This is the official landing page for DevCoachAI, an AI-powered platform that provides personalized coaching to developers.",
+      "technologies": [
+        {
+          "name": "Typescript",
+          "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/300px-Typescript_logo_2020.svg.png"
+        },
+        {
+          "name": "Nextjs",
+          "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+        },
+        {
+          "name": "Sass",
+          "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
+        }
+      ],
+      "subtitle": "DevCoachAI Landing Page. This is the official landing page for DevCoachAI, an AI-powered platform that provides personalized coaching to developers.",
       "image": "https://i.ibb.co/C5ZNZXb/devcoachai.png",
       "github": "https://github.com/matifandy8/ai-app",
       "demo": "https://devcoachai.vercel.app"

@@ -1,8 +1,27 @@
 import Image from "next/image";
 import { Project } from "../../../type";
 import styles from "../../../styles/CardProject.module.scss";
+const TechnologyIcon = ({ technology }: any) => {
+  return (
+    <div className={styles.TechnologyIcon} title={technology.name}>
+      <span>{technology.name}</span>
+      <Image
+        src={technology.iconUrl}
+        alt={technology.name}
+        width={30}
+        height={30}
+        objectFit="contain"
+      />
+    </div>
+  );
+};
 
 const CardProject = ({ name, image, github, demo, technologies }: Project) => {
+  const technologyList = Array.isArray(technologies)
+    ? technologies.map((technology, index) => (
+        <TechnologyIcon key={index} technology={technology} />
+      ))
+    : [];
   return (
     <div className={styles.CardProject}>
       <h1>{name}</h1>
@@ -13,7 +32,7 @@ const CardProject = ({ name, image, github, demo, technologies }: Project) => {
         height={350}
         objectFit="contain"
       />
-      <p>{technologies}</p>
+      <div className={styles.CardProject__technologies}>{technologyList}</div>
       <div className={styles.CardProject__tags}>
         <a href={github} target="_blank" rel="noreferrer">
           Source

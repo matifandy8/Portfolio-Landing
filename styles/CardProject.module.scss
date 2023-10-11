@@ -4,14 +4,26 @@
   border-radius: 8px;
   color: rgba(235, 240, 255, 0.5);
   display: flex;
+  justify-content: space-around;
   flex-direction: column;
   padding: 1.5rem;
-  &__tags {
+  &__technologies {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    .TechnologyIcon {
       display: flex;
-      justify-content: space-evenly;
+      justify-content: center;
       align-items: center;
+      gap: 10px;
+    }
+  }
+  &__tags {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     a {
-        background-color: #282c34;;
+      background-color: #282c34;
       border: 2px solid #ffffff6b;
       border-radius: 8px;
       color: #eee;
@@ -21,10 +33,10 @@
       line-height: normal;
       padding: 0.4rem 0.6rem;
       vertical-align: middle;
-      &:hover{
+      &:hover {
         border: 1px solid rgb(224, 195, 34);
         color: rgb(224, 195, 34);
-    }
+      }
     }
   }
   h1 {
