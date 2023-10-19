@@ -39,7 +39,7 @@ export default Home;
 
 export const getServerSideProps: GetServerSideProps = async () => {
   const res = await fetch(
-    "https://run.mocky.io/v3/df888302-3781-4f1d-8e30-2dc2d75ab720"
+    "https://run.mocky.io/v3/47469913-601b-41e1-a1ee-117b82cf307a"
   );
   const data = await res.json();
 

@@ -21,25 +21,17 @@
     },
     {
       "id": 2,
-      "name": "Mat-url",
+      "name": "NeoBrutalismCSS",
       "technologies": [
         {
-          "name": "NextJs",
-          "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
-        },
-        {
-          "name": "Redux",
-          "iconUrl": "https://i.ibb.co/redux-icon.png"
-        },
-        {
-          "name": "FaunaDB",
-          "iconUrl": "https://i.ibb.co/faunadb-icon.png"
+          "name": "Sass",
+          "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
         }
       ],
-      "subtitle": "Is a URL shortener to reduce a long link. Use our tool to shorten links and then share them.",
-      "image": "https://i.ibb.co/ZKm1pTm/url.png",
-      "github": "https://github.com/matifandy8/MatUrl",
-      "demo": "https://mat-url.vercel.app/"
+      "subtitle": "ightweight and minimalist CSS library inspired by the principles of neo-brutalist web design.",
+      "image": "https://i.ibb.co/pyrC6sj/home-page.png",
+      "github": "https://github.com/matifandy8/NeoBrutalismCSS",
+      "demo": "https://matifandy8.github.io/NeoBrutalismCSS/"
     },
     {
       "id": 3,
